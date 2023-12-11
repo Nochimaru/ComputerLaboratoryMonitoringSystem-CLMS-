@@ -10,13 +10,7 @@ body{
     box-shadow: 10px 10px 5px rgb(37, 3, 99);
     border-radius: 6px;
 }
-#btn{
-    color: white;
-    background-color: green;
-    padding: 10px;
-    font-size: large;
-    border-radius: 10px;
-}
+
 @media screen and (max-width:700px) {
     #form{
         width: 65%;
@@ -33,3 +27,4 @@ body{
     margin-bottom: 10px;
     font-size: 8px;
 }
+

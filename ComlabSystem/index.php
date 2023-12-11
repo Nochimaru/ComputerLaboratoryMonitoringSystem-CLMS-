@@ -21,6 +21,7 @@ include("loginconnection.php");
             overflow: hidden;
         }
 
+
         #form {
             background-color: white;
             width: 25%;
@@ -32,15 +33,17 @@ include("loginconnection.php");
 
         #btn {
             color: white;
-            background-color: green;
+            background-color: darkblue;
             padding: 10px;
-            font-size: large;
+            font-size: 20px;
             border-radius: 10px;
             cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
         }
 
         #btn:hover {
-            background-color: darkgreen;
+            background-color: blue;
         }
 
         @media screen and (max-width: 700px) {
@@ -59,6 +62,28 @@ include("loginconnection.php");
             margin-bottom: 10px;
             font-size: 8px;
         }
+
+        #form label {
+        font-size: 16px;
+        }
+
+        #user{
+            font-size: 16px;
+            padding: 5px; 
+            width: 68%;
+        }
+
+        #pass{
+            font-size: 16px;
+            padding: 5px;
+            margin-left: 3px;
+            width: 68%;
+        }
+
+        #form h1{
+            margin-top: 0px;
+        }
+
     </style>
 </head>
 <body>
