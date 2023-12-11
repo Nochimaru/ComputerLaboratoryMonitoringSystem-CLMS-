@@ -1,0 +1,19 @@
+body{
+    background-image: url('Wallpaper.gif');
+    background-position: center;
+}
+h1{
+    font-family: fantasy;
+    color: rgb(247, 0, 0);
+}
+h3{
+    font-family: fantasy;
+    color: rgb(247, 0, 0);
+}
+.opac
+{  
+    background: rgba(211, 185, 185, 0.5);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+
+}
